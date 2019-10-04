@@ -1,0 +1,53 @@
+body {
+    background: grey;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.second_container {
+    background: pink;
+    margin-top: 16px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+}
+
+.click {
+    background: red;
+    color: black;
+    height: 100px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.empty {
+    background: red;
+    color: black;
+    height: 100px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.second_textbox {
+    height: 100px;
+    width: 350px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: lightblue;
+}
